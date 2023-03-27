@@ -1,0 +1,33 @@
+#div_1 {
+    border: 25px solid purple;
+}
+#div_2 {
+    border: 10px dashed pink;
+    padding: 24px;
+    /* padding affects space INSIDE the border */
+}
+#div_3 {
+    border: 24px dotted blue;
+    padding: 36px;
+    margin: 60px;
+    /* margin affects space OUTSIDE the border */
+}
+#div_4 {
+    border: 2px solid green;
+    padding: 8px;
+    margin: 24px;
+    /* margin can overlap, but padding cannot */
+}
+#div_5 {
+    background-color: rgba(214, 75, 119, 0.779);
+    color: white;
+    /* you can also use hexadecimal colors */
+    }
+    #div_6 {
+        border: 5px solid brown
+        /* you can target top, left, right, and bottom sides */
+        padding-left: 48px;
+        /* providing two value will set the
+        top/bottom first, and left/right second */
+        margin: 50px 12px;
+    }
