@@ -27,3 +27,27 @@ h3 {
     padding: 16px;
     box-shadow: 4px 4px 8px 2px salmon;
 }
+.card img {
+    width: 300px;
+}
+
+#img_container{
+    float: left;
+    padding-right: 24px;
+}
+
+#clear{
+    clear: both;
+}
+
+footer {
+    background-color: cornflowerblue;
+    padding: 24px;
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+
