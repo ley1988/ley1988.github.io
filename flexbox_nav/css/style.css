@@ -3,7 +3,6 @@ body {
 }
 nav{
     background-color: purple;
-    padding: 24px;
 }
 ul {
     display: flex;
@@ -14,7 +13,7 @@ ul {
     margin: 0px auto;
 }
 ul li {
-    margin: 12px;
+    padding: 12px;
 }
 li a {
     color: papayawhip;
