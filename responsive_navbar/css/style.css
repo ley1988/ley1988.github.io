@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 nav {
-    border-top: 20px solid bisque;
+    border-top: 20px solid lightblue;
     background-color: lightpink;
 }
 ul {
@@ -47,4 +47,8 @@ li a {
 .dropdown_container:hover .dropdown_menu {
     opacity: 5;
     visibility: visible;
+}
+#logo {
+    width: 150px;
+    height: auto;
 }
