@@ -52,3 +52,19 @@ li a {
     width: 150px;
     height: auto;
 }
+
+.image_container {
+    width: 250;
+}
+
+.image_container img {
+    width: 90%;
+}
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
