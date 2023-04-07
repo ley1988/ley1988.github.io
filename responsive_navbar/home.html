@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="contact.html">
-</head>
-<body>
-    
-</body>
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Responsive Navbar</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li class="dropdown_container">
+                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                    <ul class="dropdown_menu">
+                        <li><a href="#">Essentials</a></li>
+                        <li><a href="#">Clothing</a></li>
+                        <li><a href="#">Gift</a></li>
+                    </ul>
+                </li>
+                <li class="Home">
+                    <a href="home.html">home</a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <img id="logo" src="images/logo..png">
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Shoping">
+                        <i class="fa-solid fa-cart-plus"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+             <h1>Easter Collection</h1>
+            <div class="side_by_side">
+                <div class="image_container">
+                    <img id="card_image" src="images/easter.png">
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at hic alias quibusdam, corrupti sit delectus asperiores quia repellat error, tenetur vel repellendus beatae commodi quasi accusantium optio eveniet veritatis?
+                </p>
+            </div>
+            <div class="side_by_side">
+                <div class="image_container">
+                    <img id="card_image" src="images/pic easter2.png">
+                </div>
+            </div>
+        </main>
+    </body>
 </html>
