@@ -61,6 +61,7 @@ li a {
 }
 .side_by_side {
     display: flex;
+    align-items: flex-start;
 }
 
 .image_container img {
@@ -79,6 +80,17 @@ li a {
 #Hours_Contact {
     border: 2px solid burlywood;
     padding: 16px;
+}
+#ester_image {
+    width: 100%;
+}
+#rylee_image {
+    width: 100%;
+}
+@media screen and (max-widht:768px) {
+    ul {
+        flex-direction: column;
+    }
 }
 
 
