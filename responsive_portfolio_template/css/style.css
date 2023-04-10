@@ -80,7 +80,7 @@ nav {
 }
 
 #three_cards {
-    grid-area: three_cards-area;
+    grid-area: three_cards_area;
 }
 
 #carousel_container {
@@ -88,7 +88,7 @@ nav {
 }
 
 #gallery_container {
-    grid-area: gallery-area;
+    grid-area: gallery_area;
 }
 
 #two_cards {
@@ -176,7 +176,7 @@ footer ul {
   Media Query - Mobile Breakpoint
 ****************************************************************************/
 @media screen and (max-width: 800px) {
-    #site_grit {
+    #site_grid {
         grid-template-columns: 1fr;
         grid-template-areas:
             "nav_area"
