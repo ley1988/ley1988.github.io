@@ -160,7 +160,7 @@ footer ul {
 #hero {
     height: 80vh;
     display: flex;
-    justify-content: c;
+    justify-content: center;
     align-items: center;
     text-align: center;
     background-image: url("../images/roberto-nickson-5ui0tfMC5ts-unsplash.jpg");
