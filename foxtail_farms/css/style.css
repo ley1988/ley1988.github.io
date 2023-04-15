@@ -153,6 +153,12 @@ footer ul {
     padding: 0;
 }
 
+footer {
+    background-color: #e1a177;
+    padding: 24px;
+    text-align: center;
+    
+}
 
 /****************************************************************************
   Hero styles
