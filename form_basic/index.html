@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Form basic</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <h1>Sweet Dreams</h1>
+            <fieldset>
+                <legend>Form Information</legend>
+           
+                <h2>Basic Information</h2>
+                <h4>Personal Information</h4>
+
+                <div>
+                    <label for="first_name_id">First Name:</label>
+                    <input type="text" id="first_name_id" name="first_name">
+                </div>
+                <div>
+                    <label for="last_name_id">Last Name:</label>
+                    <input type="text" id="last_name_id" name="last_name">
+                </div>
+                <div>
+                    <label for="phone_number_id">Phone Number:</label>
+                    <input type="text" id="phone_number_id" name="phone_number">
+                </div>
+                <div>
+                    <label for="email_id">Email:</label>
+                    <input type="text" id="email_id" name="email_id">
+                </div>
+
+                <p>Cakes Type</p>
+
+                <div>
+                    <input type="radio" id="acvc" name="cakes" value="acvc">
+                    <label for="acvc_radio">Almond Chocolate Vanilla Cake</label>
+                </div>
+                <div>
+                    <input type="radio" id="tc" name="cakes" value="tc">
+                    <label for="tc_radio">Tiramisu Cake</label>
+                </div>
+                <div>
+                    <input type="radio" id="tlc" name="cakes" value="tlc">
+                    <label for="tlc_radio">Tres Leche Cake</label>
+                </div>
+
+                <div>
+                    <label for="extra_toppin_id">
+                        Extra Toppin
+                    </label>
+                    <select id="extra_toppin_id" name="extra_toppin">
+                        <option value="strawberry">Strawberry</option>
+                        <option value="coconut">Coconut</option>
+                        <option value="lime">Lime</option>
+                    </select>
+                </div>
+                
+
+                <div>
+                    <input type="button" value="Submit Button">
+
+                </div>
+            </fieldset>
+        </form>
+          
+    </body>
+</html>
