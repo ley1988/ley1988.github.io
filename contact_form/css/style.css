@@ -17,6 +17,56 @@ body {
 }
 form {
     background-color: white;
-    border: 2px solid #cccccc;
+    border: 2px solid salmon;
     padding: 36px;
+    box-shadow: 4px 4px 8px 0px lightskyblue;
 }
+
+.border {
+    border: 2px solid sandybrown;
+    color: black;
+    margin: 48px 24px 24px;
+    padding: 12px 12px 24px;
+    box-shadow: 4px 4px 8px 0px rgb(192, 129, 192);
+}
+
+input[type=submit] {
+    background: linear-gradient(to bottom, skyblue, teal);
+    border: 0px;
+    border-radius: 8px;
+    padding: 12px 48px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    opacity: 0.9;
+}
+input[type=submit]:active {
+    background: linear-gradient(to top, skyblue, teal);
+}
+
+#help_you_id {
+    border: 2px solid plum;
+    padding: 2%;
+    padding-left: 70%;
+    
+}
+
+#name_id {
+    border: 2px solid orange;
+    padding: 2%;
+    padding-left: 66%;
+}
+
+#email_id {
+    border: 2px solid teal;
+    padding: 2%;
+    padding-left: 66%;
+}
+
+#code_massage_id {
+    border: 2px solid rgb(0, 208, 255);
+    padding: 8%;
+    padding-left: 51%;
+}
+
+
