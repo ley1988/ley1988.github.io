@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Forms Examples</title>
+        <link href="css/forms.css" rel="stylesheet">
     </head>
     <body>
         <h1>Let's look at some forms!</h1>
@@ -16,11 +17,11 @@
                 <h4>Each input should a unique 'name' attribute</h4>
                 <p>What is your name?</p>
 
-                <div>
+                <div class="text_input">
                     <label for="first_name_id">First Name:</label>
                     <input type="text" id="first_name_id" name="first_name">
                 </div>
-                <div>
+                <div class="text_input">
                     <label for="last_name_id">Last Name:</label>
                     <input type="text" id="last_name_id" name="last_name">
                 </div>
@@ -28,20 +29,19 @@
                 <h2>Texarea Input</h2>
                 <h4>Each textarea should also have a unique 'name' attribute</h4>
 
-                <div>
+                <div class="text_input">
                     <label for="code_fellings_id">How do you feel about programing.</label>
                     <textarea
                      id="code_feelings_id" 
                      name="code_feelings"
-                     rows="5"
-                     cols="40"
                      placeholder="This is the default text for a text area"></textarea>
                 </div>
             </fieldset>
             <fieldset>
                 <legend>Option-related Form Elements</legend>
                 <h2>Checkbox Input</h2>
-                <h4> All checkbox inputs should have unique (but similar)
+                <h4> 
+                    All checkbox inputs should have unique (but similar)
                     'name' attribute and different 'value attributes'
                 </h4>
                 <p>How do you get to class?</p>
@@ -93,7 +93,8 @@
                 </div>
 
                 <h2>Dropdown Input (select/options)</h2>
-                <h4> Each dropdown should have a unique 'name' attribute
+                <h4>
+                     Each dropdown should have a unique 'name' attribute
                     on the "select" element,
                     and unique 'value' attribute on each "option" element
                 </h4>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Contact Form</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="grid_container">
+            <header>
+                <h1>Contact us</h1>
+                <h5>
+                    Got a question? We'd love
+                    to hear from you. Send u
+                    a message and we'll respond
+                    as soon as possible.
+                </h5>
+            </header>
+            <main>
+                <form>
+                    <label for="help_you_id">
+                        What can we help you with?
+                    </label>
+                    <select id="help_you_id" name="help_you">
+                        <option value="refund">Refund</option>
+                        <option value="tracking_number">Tracking Number</option>
+                        <option value="something_els">Something els</option>
+                    </select>
+                    <div class="text_input">
+                        <label for="name_id">Name</label>
+                        <input type="text" id="name_id" name="name">
+                    </div>
+                    <div class="text_input">
+                        <label for="email_id">Email</label>
+                        <input type="text" id="email_id" name="email">
+                    </div>
+                    <div class="text_input">
+                        <label for="code_message_id">Massage</label>
+                        <textarea
+                        id="code_massage_id"
+                        name="code_massage"
+                        placeholder="Text area"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit everything">
+                    </div>
+                </form>
+            </main>
+        </section> 
+    </body>
+</html>
