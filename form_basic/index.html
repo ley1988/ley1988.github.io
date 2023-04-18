@@ -3,19 +3,19 @@
     <head> 
         <meta charset="UTF-8"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <div class="cake" id="cake">
         <title>Form basic</title>
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <form>
             <h1>Sweet Dreams</h1>
-            <fieldset>
+            <div class="card">
+            <fieldset id="infor">
                 <legend>Form Information</legend>
-           
                 <h2>Basic Information</h2>
                 <h4>Personal Information</h4>
-
                 <div>
                     <label for="first_name_id">First Name:</label>
                     <input type="text" id="first_name_id" name="first_name">
@@ -58,13 +58,12 @@
                         <option value="lime">Lime</option>
                     </select>
                 </div>
-
-
                 <div>
-                    <input type="submit" value="Submit everything">
-
+                    <input type="submit" id="submit" value="Submit everything">
                 </div>
+            </div>
             </fieldset>
+            </div>
         </form>
           
     </body>

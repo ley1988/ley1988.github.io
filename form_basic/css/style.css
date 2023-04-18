@@ -1,0 +1,53 @@
+#submit {
+    margin-top: 24px;
+}
+
+.card {
+    border: 2px solid palevioletred;
+    color: black;
+    margin: 48px 24px 24px;
+    padding: 12px 12px 24px;
+    box-shadow: 4px 4px 8px 0px rgb(192, 129, 192);
+    
+}
+
+#infor {
+    border: 2px solid purple;
+    color: black;
+    margin: 48px 24px 24px;
+    padding: 12px 12px 24px;
+    box-shadow: 4px 4px 8px 0px lightskyblue;
+}
+
+#cake {
+    background-image: url("../images/brooke-lark-pGM4sjt_BdQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text_input label {
+    display: block;
+}
+
+.tex_input input {
+    margin: 4px 0px 16px;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#first_name_id {
+    border: 2px solid yellow;
+}
+
+#last_name_id {
+    border: 2px solid lightseagreen;
+}
+
+#phone_number_id {
+    border: 2px solid lightsalmon;
+}
+
+#email_id {
+    border: 2px solid greenyellow;
+}
