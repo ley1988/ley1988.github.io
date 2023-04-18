@@ -20,7 +20,7 @@
 }
 
 #cake {
-    background-image: url("../images/brooke-lark-pGM4sjt_BdQ-unsplash.jpg");
+    background: linear-gradient(#ffffff99,#ffffff99),url("../images/brooke-lark-pGM4sjt_BdQ-unsplash.jpg");
     background-size: cover;
     background-position: center;
 
