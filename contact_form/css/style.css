@@ -1,4 +1,8 @@
 #grid_container {
+    background-image: url("../images/pawel-czerwinski-ruJm3dBXCqw-unsplash.jpg");
+}
+
+#grid_container {
     display: grid;
     grid-template-columns: 1fr 600px 1fr;
     grid-template-areas:
@@ -10,6 +14,7 @@ header {
 }
 main {
     grid-area: main_area;
+    background-image: url("../images/amit-lahav-LU_fCezP9-o-unsplash.jpg");
 }
 
 body {
@@ -47,26 +52,29 @@ input[type=submit]:active {
 #help_you_id {
     border: 2px solid plum;
     padding: 2%;
-    padding-left: 70%;
+    width: 100%;
     
 }
 
 #name_id {
     border: 2px solid orange;
     padding: 2%;
-    padding-left: 66%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #email_id {
     border: 2px solid teal;
     padding: 2%;
-    padding-left: 66%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #code_massage_id {
     border: 2px solid rgb(0, 208, 255);
     padding: 8%;
-    padding-left: 51%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 
