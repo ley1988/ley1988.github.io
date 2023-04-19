@@ -14,7 +14,6 @@ header {
 }
 main {
     grid-area: main_area;
-    background-image: url("../images/amit-lahav-LU_fCezP9-o-unsplash.jpg");
 }
 
 body {
@@ -25,6 +24,8 @@ form {
     border: 2px solid salmon;
     padding: 36px;
     box-shadow: 4px 4px 8px 0px lightskyblue;
+    background-image: url("../images/amit-lahav-LU_fCezP9-o-unsplash.jpg");
+    background-size: cover;
 }
 
 .border {
@@ -33,6 +34,8 @@ form {
     margin: 48px 24px 24px;
     padding: 12px 12px 24px;
     box-shadow: 4px 4px 8px 0px rgb(192, 129, 192);
+    background:linear-gradient(#ffffff77,#ffffff77),url("../images/karsten-winegeart-PL5FZkW0Qkk-unsplash.jpg");
+    background-size: cover;
 }
 
 input[type=submit] {
