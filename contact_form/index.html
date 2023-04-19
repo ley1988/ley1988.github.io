@@ -17,12 +17,13 @@
                     a message and we'll respond
                     as soon as possible.
                 </h5>
+                <p>* indicates requiered fields</p>
             </header>
             <main>
                 <form>
                     <div class="border">
                     <label for="help_you_id">
-                        What can we help you with?
+                        What can we help you with?*
                     </label>
                     <br>
                     <br>
@@ -34,12 +35,18 @@
                     </select>
                     <div class="text_input">
                         <br>
-                        <label for="name_id">Name</label>
-                        <input type="text" id="name_id" name="name">
+                        <label for="name_id">Name*</label>
+                        <input
+                            required
+                            minlength="5"
+                            maxlength="15" 
+                            type="text" 
+                            id="name_id" 
+                            name="name">
                     </div>
                     <div class="text_input">
                         <br>
-                        <label for="email_id">Email</label>
+                        <label for="email_id">Email*</label>
                         <input type="email" id="email_id" name="email">
                     </div>
                     <div class="text_input">

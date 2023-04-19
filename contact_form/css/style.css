@@ -66,6 +66,16 @@ input[type=submit]:active {
     box-sizing: border-box;
 }
 
+#name_id:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+
+input[type=email]:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+
 #email_id {
     border: 2px solid teal;
     padding: 2%;
