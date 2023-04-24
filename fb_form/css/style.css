@@ -56,12 +56,22 @@ input[type=submit]:active {
     border: 2px solid lightgrey;
     padding: 10px;
     border-radius: 3px;
+    margin: 5px;
+    flex: 1;
   
 }
 #code_last_name_id {
     border: 2px solid lightgray;
     padding: 10px;
     border-radius: 3px;
+    margin: 5px;
+    flex: 1;
+}
+#custom {
+    border: 1px solid rgb(173, 170, 170);
+    border-radius: 2px;
+    padding: 10px;
+    margin: 5px;
 }
 
 #first_name_id:invalid {
@@ -95,7 +105,7 @@ input[type=email]:invalid {
     box-sizing: border-box;
 }
 .text_input {
-    display: inline-flex;
+    display: flex;
 }
 .inf {
     color: lightslategray;
@@ -112,14 +122,24 @@ form h3 {
 #female {
     border: 1px solid rgb(173, 170, 170);
     border-radius: 2px;
-    padding: 5px;
-    margin: 12px;
+    padding: 10px;
+    margin: 5px;
 }
 #male {
     border: 1px solid rgb(173, 170, 170);
     border-radius: 2px;
-    padding: 5px;
-    margin: 12px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#birthday {
+    display: flex;
+    flex: 1;
+}
+select {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
 }
 
 

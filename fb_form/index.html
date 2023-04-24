@@ -22,8 +22,6 @@
                     <br>
                     <br>
                     <div class="text_input">
-                        <br>
-                        <label for="code_first_name_id"></label>
                         <input
                             required
                             minlength="5"
@@ -32,11 +30,6 @@
                             id="code_first_name_id" 
                             name="code_first_name"
                             placeholder="First Name">
-                            
-                    </div>
-                    <div class="text_input">
-                        <br>
-                        <label for="code_last_name_id"></label>
                         <input
                             required
                             minlength="5"
@@ -57,7 +50,7 @@
                         <input type="new_password" id="new_password_id" name="new_password" placeholder="New Password">
                     </div>
                     <div class="text_birthday">Birthday</div>
-                    <div>
+                    <div id="birthday">
                         <select id="birthday_id" name="birthday_id">
                             <option value="aug">Aug</option>
                             <option value="sep">Sep</option>
@@ -87,6 +80,10 @@
                             <div id="male">
                                 <input type="radio" id="acvc" name="male" value="acvc">
                                 <label for="acvc_radio">Male</label>
+                            </div>
+                            <div id="custom">
+                                <input type="radio" id="acvc" name="custom" value="acvc">
+                                <label for="acvc_radio">Custom</label>
                             </div>
                     </div>
                     <div class="inf">
