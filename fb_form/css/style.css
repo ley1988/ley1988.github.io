@@ -1,0 +1,132 @@
+#grid_container {
+
+}
+
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas:
+        ". header_area ."
+        ". main_area .";
+        background-color: rgb(246, 245, 245);
+}
+header {
+    grid-area: header_area;
+}
+main {
+    grid-area: main_area;
+}
+
+body {
+    background-color: #fafafa;
+}
+form {
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 1%;
+    box-shadow: 4px 4px 8px 0px lightgrey;
+    text-align: center;  
+}
+form h4 {
+    color: rgb(105, 110, 114)
+}
+
+.border {
+    color: black;
+    margin: 48px 24px 24px;
+    padding: 12px 12px 24px;
+    box-shadow: 4px 4px 8px 0px lightgray;
+}
+
+input[type=submit] {
+    background: linear-gradient(to bottom, rgb(20, 169, 20), rgb(26, 200, 26));
+    border: 0px;
+    border-radius: 8px;
+    padding: 12px 48px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    opacity: 0.9;
+}
+input[type=submit]:active {
+    background: linear-gradient(to top, rgb(20, 169, 20), rgb(26, 200, 26));
+}
+
+#code_first_name_id {
+    border: 2px solid lightgrey;
+    padding: 10px;
+    border-radius: 3px;
+  
+}
+#code_last_name_id {
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#first_name_id:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+#last_name_id:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+
+input[type=email]:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+
+#mobile_number_email_id {
+    padding: 2%;
+    width: 100%;
+    box-sizing: border-box;
+}
+#new_password_id {
+    padding: 2%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#code_massage_id {
+    padding: 8%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.text_input {
+    display: inline-flex;
+}
+.inf {
+    color: lightslategray;
+}
+form h3 {
+    color: rgb(43, 97, 245);
+}
+.gender {
+    display: inline-flex;
+}
+.b1 {
+    display: inline-flex;
+}
+#female {
+    border: 1px solid rgb(173, 170, 170);
+    border-radius: 2px;
+    padding: 5px;
+    margin: 12px;
+}
+#male {
+    border: 1px solid rgb(173, 170, 170);
+    border-radius: 2px;
+    padding: 5px;
+    margin: 12px;
+}
+
+
+
+
+
+
+
+
+
