@@ -219,15 +219,15 @@ footer {
     flex-direction: column;
 }
 #veg {
-    background-image: url("../images/veg.jpeg");
+    background:linear-gradient(#ffffff77,#ffffff77), url("../images/veg.jpeg");
 }
 #fruits {
-    background-image: url("../images/fruit.jpeg");
+    background:linear-gradient(#ffffff77,#ffffff77), url("../images/fruit.jpeg");
     background-size: cover;
     background-position: center; 
 }
 #coffe {
-    background-image: url("../images/columbia\ coffe.jpeg");
+    background:linear-gradient(#ffffff77,#ffffff77), url("../images/columbia\ coffe.jpeg");
     background-size: cover;
 }
 #truck {
