@@ -9,7 +9,20 @@ body {
 #hero {
     background-image: url("../images/hulu-bg.jpeg");
 }
-.logo {
-    
+h6 {
+    color: white;
+    text-align: center;
 }
+h2 {
+    color: white;
+    text-align: center;
+}
+input[type=submit] {
+    background: linear-gradient(to bottom,rgb(78, 244, 78),rgb(78, 244, 78));
+    border: 0px;
+    border-radius: 8px;
+    padding: 12px 48px;
+    cursor: pointer;
+}
+
 
