@@ -1,7 +1,3 @@
-* {
-    /*border: 2px solid green;*/
-}
-
 body {
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,7 +5,7 @@ body {
 }
 
 #hero {
-    background-image: url("../images/hulu-bg.jpeg");
+    background-image: url("../images/backgroundLarge.jpg");
     background-size: cover;
 }
 
@@ -50,20 +46,19 @@ nav a:hover {
     align-items: center;
 }
 
-h5 {
-    color: #00ED82;
+h5,
+h6 {
+    color: lightgrey;
 }
-
-#hero_content p {
-    color: white;
-    font-size: 22px;
-    text-align: center;
+#footer6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .button_link {
     display: inline-block;
-    background-color: #00ED82;
-    color: black;
+    background-color:rgb(13, 91, 245);
+    color: white;
     text-decoration: none;
     font-weight: bolder;
     font-size: 14px;
@@ -109,39 +104,9 @@ footer img {
     width: 100%;
 }
 
-.clear_button_link {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    border: 2px solid white;
-    padding: 12px 24px;
-    border-radius: 4px;
-    transition:
-        background-color 0.5s,
-        color 0.5s;
-}
-
 .clear_button_link:hover {
     background-color: white;
     color: black;
-}
-
-.tiny_link {
-    display: block;
-    color: white;
-    font-size: 10px;
-    text-align: center;
-    margin-top: 4px
-}
-
-#footer_center {
-    margin: 0px 24px;
-    flex: 1;
-}
-
-#footer_center p {
-    color: white;
-    font-size: 22px;
 }
 
 #cards_section {
@@ -151,7 +116,6 @@ footer img {
 
 #cards_section h2,
 #cards_section p,
-#cards_section h6,
 #cards_section h4 {
     color: white;
 }
@@ -190,23 +154,31 @@ footer img {
     margin-top: 0px;
 }
 
-#bobs_burgers {
-    background-image: url("../images/bobsburgers.jpeg");
+#wakanda_forever {
+    background-image: url("../images/wakandaForever.jpg");
     background-size: contain;
 }
 
-#prey {
-    background-image: url("../images/prey.jpeg");
+#andor {
+    background-image: url("../images/andor.jpg");
     background-size: contain;
 }
 
-#handmaids_tale {
-    background-image: url("../images/handmaidstale.jpeg");
+#turning_red {
+    background-image: url("../images/turningRed.jpg");
     background-size: contain;
 }
 
-#dragon {
-    background-image: url("../images/houseofdragon.jpeg");
+#fire_of_love {
+    background-image: url("../images/fireOfLove.jpg");
+    background-size: contain;
+}
+#encanto {
+    background-image: url("../images/encanto.jpg");
+    background-size: contain;
+}
+#zootopia_plus {
+    background-image: url("../images/zootopiaPlus.jpg");
     background-size: contain;
 }
 
