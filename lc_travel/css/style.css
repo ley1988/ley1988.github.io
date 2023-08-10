@@ -18,6 +18,9 @@ h3,
 a {
     font-family: mina monospace;
 }
+ #nav_links {
+    font-size: x-large;
+ }
 
 h4,
 p {
