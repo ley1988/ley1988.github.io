@@ -87,6 +87,8 @@ nav {
 
 #gallery_container {
     grid-area: gallery_area;
+    background-position: center;
+    background-size: cover;
 }
 
 #two_cards {
